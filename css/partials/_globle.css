@@ -1,0 +1,97 @@
+
+
+.title-text{
+    font: normal bold 60px/72px var(--roboto);   
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+
+/* buttons 1,2 */
+
+.button.primary-button{
+    padding: 0.8rem 0.9rem;
+    font: normal 500 16px/15px var(--roboto);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    margin:6px;
+}
+.button.secondary-button{
+    padding: 0.8rem 1.6rem;
+    font: normal 500 16px/15px var(--roboto);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    margin:6px;
+    box-shadow: var(--box-shadow2);
+}
+
+.button.primary-button{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background 0.6s ease;
+    box-shadow: var(--box-shadow);
+}
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.primary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px; right: -2px;
+    background: var(--gradient-color);
+    content: '';
+    z-index: -1;
+    border-radius: 4px;
+
+}
+.button.secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px; right: -2px;
+    background: var(--gradient-color);
+    content: '';
+    z-index: -1;
+    border-radius: 4px;
+
+}
+
+.button.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: background 0.6s ease;
+}
+
+.button.secondary-button:hover{
+    background: var(--primary-color4);
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+    background-clip: padding-box;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

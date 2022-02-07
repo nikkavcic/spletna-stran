@@ -1,0 +1,91 @@
+/* import font */
+
+@import url(./fonts.css);
+
+@import url(./partials/_variables.css);
+
+@import url(./partials/_globle.css);
+
+/* start navigation */
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0;
+}
+.header_area .main-menu .navbar{
+    padding: 5px 160px 5px;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    padding: 1.6rem;
+    font-weight: 500;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--primary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* end navigation */
+
+
+/*banner area*/
+body{
+    background-image: url(../img/whitening.jpg);
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body .site-title{
+    padding-top: 5%;
+    padding-left: 20%;
+    font-weight: 500; 
+}
+body .site-title h1{
+    padding-left: 3%;
+    font-size: 85px;
+    line-height: 1;
+    white-space: nowrap;
+}
+body .site-title h4{
+    padding-left: 3%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 0;
+}
+
+body .profile-image{
+    padding-top: 2%;
+    padding-left: 16%;
+    font-weight: 500;
+}
+
+body .site-buttons{
+    padding-top: 5%;
+    padding-left: 0%;
+    font-weight: 500;    
+}
+
+
+
+
+/* end banner area*/
+
+
+
+
+
+
